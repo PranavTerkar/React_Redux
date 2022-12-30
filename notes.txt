@@ -1,0 +1,79 @@
+Redux
+
+Redix is a predictable state container for javascript apps.
+
+Is for javascript apps(Not a type of react) 
+can be used with angular etc.
+
+Redux stores the state of your application 
+Stores and manage the application state
+
+Redux is predictable 
+State of application can change 
+In redux, all state transition are explicit and it is possible to keep track of them
+
+The changes to your application state becomes predictable. 
+
+Use to manage the state of appliaction in a predictable way.
+
+React +  Redux
+
+To share the state through various components in comnent tree, it gets harder 
+as in react some times compoent tree grows wide. 
+Here redux comes..
+
+In redux, state is kept out of components hence can only be sheared with require
+components rather goiny through whole tree.
+
+React and redux both work independently.
+React-redux is a librery to combine them them both. 
+ 
+Generally redux is used where the number of componenst are in react. 
+
+
+
+To use redux
+1] Make sure you have install node and npn in your system.
+2] Run commend npm init -y in your terminal. 
+3] Now install redux by running command "npm install redux" 
+
+you are ready to go. 
+
+Core Concepts
+1] Store - Holds the state of your application. 
+2] Action - Describe what happened.
+3] Reducer - Ties the store and action together
+
+A stores yhat holds state of application. 
+An action that describe the changes in the state of the application 
+A reducer which actually carries out the state transition depending on the action. 
+
+
+Principles
+
+1] The state of your whole application is stored in an object three within a single store
+Maintain our application state in a single object which would be managed  by redux store 
+
+2] The only way to change the state is to emit an action, an object describing what happened
+To update the state of application, you need to let redux know about taht with action.
+Not allowed to directly updte the store object. 
+
+3] To specify ho wthe state tree in trensfrmed by action, you write pure reducers
+Reducer - (previousState, action) => newState. 
+
+<<< FLOW CHART >>>
+
+
+Syncronous Action
+As soon as an action was dispatch, the state was immediately updated.
+
+Async Actions
+Asynchronous API calls to fetch data from an end point and use that data in yous application. 
+
+
+
+
+
+
+
+
